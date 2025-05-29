@@ -22,7 +22,7 @@ Screenshot
 
 ## 🚀 Live Demo
 
-[👉 Try it now (GitHub Pages/Netlify link)](https://mosesfdo.github.io/TempMail/)
+[👉 Try it now (GitHub Pages/TempMail)](https://mosesfdo.github.io/TempMail/)
 
 ---
 
