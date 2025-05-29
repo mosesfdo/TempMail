@@ -2,9 +2,10 @@
 
 A lightweight, frontend-based temporary email address generator and inbox viewer built with HTML, CSS, and vanilla JavaScript. Perfect for quick signups and testing without using your real email.
 
+Screenshot
 ![image](https://github.com/user-attachments/assets/51373632-202b-4dd2-b0c1-338162c0ebf1)
 
-) <!-- Add a screenshot of the UI and update this path -->
+<!-- Add a screenshot of the UI and update this path -->
 
 ---
 
