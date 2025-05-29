@@ -2,7 +2,8 @@
 
 A lightweight, frontend-based temporary email address generator and inbox viewer built with HTML, CSS, and vanilla JavaScript. Perfect for quick signups and testing without using your real email.
 
-![Screenshot](![image](https://github.com/user-attachments/assets/539188ee-488f-4211-8b66-2b6db075e773)
+![image](https://github.com/user-attachments/assets/51373632-202b-4dd2-b0c1-338162c0ebf1)
+
 ) <!-- Add a screenshot of the UI and update this path -->
 
 ---
@@ -49,6 +50,7 @@ A lightweight, frontend-based temporary email address generator and inbox viewer
    ```bash
    git clone https://github.com/yourusername/temp-email-generator.git
    cd temp-email-generator
-Open in browser:
-
-open index.html
+2. **Open in browser**:
+   
+   '''bash
+   open index.html
