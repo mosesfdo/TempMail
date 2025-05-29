@@ -22,7 +22,7 @@ A lightweight, frontend-based temporary email address generator and inbox viewer
 
 ## 🚀 Live Demo
 
-[👉 Try it now](https://your-live-demo-link.com)
+[👉 Try it now](https://mosesfdo.github.io/TempMail/)
 
 ---
 
