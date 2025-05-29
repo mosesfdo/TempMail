@@ -3,7 +3,8 @@
 
 A lightweight, frontend-based temporary email address generator and inbox viewer built with HTML, CSS, and vanilla JavaScript. Perfect for quick signups and testing without using your real email.
 
-![Screenshot](![image](https://github.com/user-attachments/assets/6fe5dc24-70e1-473b-8de6-67c7ad5cd044))
+**Preview**:
+![image](https://github.com/user-attachments/assets/6fe5dc24-70e1-473b-8de6-67c7ad5cd044)
 
 
 ---
@@ -39,6 +40,9 @@ A lightweight, frontend-based temporary email address generator and inbox viewer
 
 ```
 📁 temp-email-generator/
+├── 📁required/
+   └──baskerville.ttf
+   └──BaskervilleBT.ttf
 ├── index.html
 ├── style.css
 ├── script.js
