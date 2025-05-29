@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Temporary Email Generator</title>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+    <header>
+        <div class="logo-title">Temporary Email Generator</div>
+        <nav id="nav_links">
+            <a id="home_link" href="#">Home</a>
+            <a id="about_link" href="#">About</a>
+            <a id="contact_link" href="#">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h1 id="temp_main_head">Temporary Email Generator</h1>
+        <p id="sub_text_main">
+            Generate a free temporary email for quick sign-ups.
+            <br />
+            Instantly receive and view messages without using your personal email.
+        </p>
+        <br />
+        <button id="generate_button" aria-label="Generate Temporary Email">Generate</button>
+
+        <section id="inbox_section">
+            <h2>Inbox</h2>
+            <p id="email_address" style="margin: 1rem 0;">
+                Your temporary email:
+                <span id="temp_email" class="temp-email">
+                    (not generated)
+                </span>
+                <button id="copy_button" class="action-btn">Copy!</button>
+            </p>
+
+            <table id="inbox_table">
+                <thead>
+                    <tr>
+                        <th>From</th>
+                        <th>Subject</th>
+                        <th>Date</th>
+                        <th>Actions</th>
+                    </tr>
+                </thead>
+                <tbody id="inbox_list">
+                </tbody>
+            </table>
+        </section>
+    </main>
+
+    <div id="aboutModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close-button" id="closeAboutModal">&times;</span>
+                <h2>About This Project</h2>
+            </div>
+            <div class="modal-body">
+                <p>This is a **temporary email service** designed to provide you with disposable email addresses. Use it for quick sign-ups, testing, or whenever you want to avoid giving out your primary email address.</p>
+                <p>Key features include:</p>
+                <ul>
+                    <li>Instant email address generation</li>
+                    <li>A temporary inbox for receiving messages</li>
+                    <li>Easy copy-to-clipboard functionality for your generated email</li>
+                    <li>A simple and intuitive user interface</li>
+                </ul>
+                <p>Your privacy is important. Emails generated and received here are temporary and not stored long-term.</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="contactModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <span class="close-button" id="closeContactModal">&times;</span>
+                <h2>Contact Information</h2>
+            </div>
+            <div class="modal-body">
+                <p>If you have any questions, feedback, or just want to connect, feel free to reach out!</p>
+                <p><strong>Developed by:</strong>mosesfdo</p>
+                <p><strong>Email:</strong> <a href="mailto:dmosesfernando@gmail.com">dmosesfernando@gmail.com</a></p>
+                <p><strong>GitHub:</strong> <a href="https://github.com/mosesfdo" target="_blank" rel="noopener noreferrer">github.com/mosesfdo</a></p>
+                <p>Please replace the placeholder information with your actual details.</p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
