@@ -1,5 +1,5 @@
 
-# 📨 Temporary Email Generator
+#Temporary Email Generator
 
 A lightweight, frontend-based temporary email address generator and inbox viewer built with HTML, CSS, and vanilla JavaScript. Perfect for quick signups and testing without using your real email.
 
